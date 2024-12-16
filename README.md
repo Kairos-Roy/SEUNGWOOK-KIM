@@ -5,11 +5,11 @@
 
 
 ## 🛠️ **주요 기술 스택**
-- **프로그래밍 언어**: Python, C++, ROS 2
-- **플랫폼**: ROS 2, ESP32, Raspberry Pi
-- **라이브러리 & 툴**: OpenCV, YOLO, Mediapipe  
-- **기타**: SFML, PLC (XG5000), VirtualBox  
-
+- **프로그래밍 언어, 프레임워크**: Python, ROS
+- **임베디드**: STM32, ESP32, Raspberry Pi
+- **라이브러리 & 딥러닝 툴**: OpenCV, YOLO, Mediapipe, Mask R-CNN  
+- **기타**: PLC (XG5000), VirtualBox(Ubuntu)
+- 
 ---
 
 ## 🚀 **진행한 프로젝트**
@@ -19,21 +19,9 @@
 2. **자율주행 SLAM 프로젝트**  
    - ROS 2와 Nav2를 활용해 myAGV를 SLAM 매핑 후 목표 좌표로 이동시키는 프로젝트 진행.  
 
-3. **ESP32 모터 제어**  
-   - ESP32와 ROS 2를 Wi-Fi로 통신시켜 모터를 제어하고, ROS 토픽 기반으로 동작 구현.  
-
 ---
 
 ## 🌟 **연락처 및 링크**
-- **GitHub**: [내 깃허브 링크](https://github.com/username)
-- **이메일**: example@example.com
-- **블로그**: [내 블로그 링크](https://blog.example.com)
-
+- **이메일**: sw1067@gmail.com
+- **블로그**: https://blog.naver.com/swk1067 
 ---
-
-### 💻 **코드 샘플**
-```python
-def hello_github():
-    print("안녕하세요! 제 GitHub에 오신 것을 환영합니다!")
-
-hello_github()
