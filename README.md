@@ -12,7 +12,7 @@ This repository demonstrates a method for analyzing tire tread conditions using 
 2. **Model Training:**  
    - Pretrained Mask R-CNN initialized with COCO weights was fine-tuned using tire wear annotations.  
    - **Backbone Architecture:** ResNet50 was used as the feature extractor for the model.  
-   - The final weights file (`best_model_weights.h5`) was saved at the end of the training process.  
+   - The final weights file (`mask_rcnn_tire_weights.h5`) was saved at the end of the training process.  
 3. **Inference:**  
    - The saved weights file is loaded for generating segmentation masks and classifying tire conditions as "Good" (True) or "Worn" (False).  
 
