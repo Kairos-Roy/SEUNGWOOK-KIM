@@ -24,8 +24,8 @@ print("pycocotools installed successfully")
 
 # In[5]:
 from roboflow import Roboflow
-rf = Roboflow(api_key="yHvPNEYHbuUaoVu7of89")
-project = rf.workspace("dokyung-sung").project("tire_thread62")
+rf = Roboflow(api_key="")
+project = rf.workspace("").project("tire_thread62")
 version = project.version(2)
 dataset = version.download("coco")
 
