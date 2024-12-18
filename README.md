@@ -1,27 +1,27 @@
+# Tire Tread Analysis with Mask R-CNN  
 
-# 👋 안녕하세요!  
+## Overview  
+This repository demonstrates a method for analyzing tire tread conditions using Mask R-CNN. The project includes:  
+1. **Surface Segmentation:** Labeling tire surfaces (excluding treads) and converting them into COCO format datasets.  
+2. **Classification:** Fine-tuning Mask R-CNN to classify tires as **False (Severely Worn)** or **True (Good)** based on tread wear levels.  
+3. **Inference:** Generating segmented masks and analyzing results for tire condition evaluation.  
 
-저는 **김승욱**입니다. 개발에 열정을 가지고 있으며 다음과 같은 기술을 다뤄왔습니다:
+## Workflow  
+1. **Dataset Preparation:**  
+   - Tire surfaces were labeled and converted to COCO format.  
+2. **Model Training:**  
+   - Pretrained Mask R-CNN was fine-tuned using tire wear annotations.  
+3. **Validation:**  
+   - Model was tested to accurately classify "Good" (True) vs. "Worn" (False) tires.  
 
-
-## 🛠️ **주요 기술 스택**
-- **프로그래밍 언어, 프레임워크**: Python, ROS
-- **임베디드**: STM32, ESP32, Raspberry Pi
-- **라이브러리 & 딥러닝 툴**: OpenCV, YOLO, Mediapipe, Mask R-CNN  
-- **기타**: PLC (XG5000), VirtualBox(Ubuntu)
-- 
----
-
-## 🚀 **진행한 프로젝트**
-1. **AI 로보틱스 분류 시스템**  
-   - YOLO 모델을 활용해 제품의 정상/불량 여부를 분류하고 **MyCobot** 로봇을 이용하여 자동화된 분류 시스템 개발.  
-
-2. **자율주행 SLAM 프로젝트**  
-   - ROS 2와 Nav2를 활용해 myAGV를 SLAM 매핑 후 목표 좌표로 이동시키는 프로젝트 진행.  
-
----
-
-## 🌟 **연락처 및 링크**
-- **이메일**: sw1067@gmail.com
-- **블로그**: https://blog.naver.com/swk1067 
----
+## Environment Setup  
+This project was developed and tested in the following environment:  
+- **Operating System:** Ubuntu 22.04  
+- **Development Tools:** Jupyter Notebook  
+- **Dependencies:**  
+  ```bash  
+  pip install tensorflow==1.14.0  
+  pip install numpy==1.21.6  
+  pip install keras==2.2.4  
+  pip install keras-applications==1.0.8  
+  pip install scikit-image==0.16.2  
