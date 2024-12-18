@@ -214,4 +214,4 @@ image = np.asarray(image, order='C', dtype=np.uint8)
 model.train(dataset_train, dataset_val, epochs=20, layers='heads',learning_rate=0.001)
 
 # In[22]:save weigths model
-model.keras_model.save_weights('/home/ros2/tire_check180-1/mask_rcnn_tire_weights_1206-4.h5')
+model.keras_model.save_weights('/home/ros2/tire_check180-1/mask_rcnn_tire_weights.h5')
