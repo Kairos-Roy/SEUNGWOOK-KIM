@@ -4,6 +4,14 @@ This repository contains two projects focused on analyzing tire treads using dee
 
 ---
 
+## Project Details
+
+- **Duration**: November 8, 2024 – December 17, 2024  
+- **Team Members**: 5 participants  
+- **My Role**: I played a central role in tire tread analysis, focusing on deep learning model development and depth camera integration for the analysis pipeline.
+
+---
+
 ## Project Structure
 
 - **Mask R-CNN**  
@@ -11,13 +19,6 @@ This repository contains two projects focused on analyzing tire treads using dee
 
 - **Depth Camera**  
   Measures the depth of tire treads using a depth camera and computer vision techniques.
-
----
-
-## Key Contributions and Team Roles
-
-- This project was a collaborative effort involving 5 team members.  
-- I played a central role in tire tread analysis, focusing specifically on developing deep learning models and working with the depth camera to implement an effective analysis pipeline.
 
 ---
 
